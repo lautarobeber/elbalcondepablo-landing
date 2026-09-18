@@ -1,4 +1,5 @@
 import { Clock, MapPin, Phone } from 'lucide-react';
+import LeafBackground, { footerLeaves } from './LeafBackground';
 
 // Datos de la marca
 const BRAND_NAME = "El Balcón de Pedro";
@@ -49,7 +50,9 @@ function InstagramIcon(props) {
 
 export default function Footer() {
   return (
-    <footer id="contacto" className="relative w-full bg-[#CED6D9] pt-16 sm:pt-20 lg:pt-24 pb-8 px-4 sm:px-8 overflow-hidden z-1">
+    <footer id="contacto" className="relative isolate w-full bg-[#CED6D9] pt-16 sm:pt-20 lg:pt-24 pb-8 px-4 sm:px-8 overflow-hidden z-1">
+      <LeafBackground leaves={footerLeaves} />
+
       <div className="max-w-[1400px] mx-auto relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
 

@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import PillButton from './PillButton'
+import LeafBackground, { introLeaves } from './LeafBackground'
 import mesacopas from "../assets/mesacopas.jpg"
 
 // Importamos los SVGs como rutas de imagen estándar
@@ -39,7 +40,9 @@ const cardItemVariants = {
 
 export default function IntroSection() {
   return (
-    <section className="w-full bg-paper-white px-[20px] py-[80px] lg:px-[40px] lg:py-[100px]">
+    <section className="relative isolate w-full overflow-hidden bg-paper-white px-[20px] py-[80px] lg:px-[40px] lg:py-[100px]">
+      <LeafBackground leaves={introLeaves} />
+
       {/* Contenedor principal con Grid en escritorio */}
       <div className="mx-auto max-w-[1200px] grid grid-cols-1 lg:grid-cols-2 lg:gap-[60px] items-start">
 

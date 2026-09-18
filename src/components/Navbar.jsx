@@ -1,15 +1,14 @@
 import { useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { X, ChevronDown } from 'lucide-react'
+import LeafBackground, { navbarLeaves } from './LeafBackground'
 import logo from '../assets/logo.jfif'
 
 // Usamos las variantes de texto del diseño de referencia para el menú desplegable
 const menuLinks = [
   { label: 'El Balcón de Pedro', href: '#top' },
-  { label: 'Nosotros', href: '#story' },
-  { label: 'La Cocina', href: '#cocina' },
-  { label: 'La Galería', href: '#galeria' },
-  { label: 'Visítanos', href: '#visit' }
+  { label: 'La Cocina', href: '#menu' },
+  { label: 'Visítanos', href: '#contacto' }
 ]
 
 export default function Navbar() {
@@ -24,8 +23,10 @@ export default function Navbar() {
         initial={{ opacity: 0, y: -16 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: [0.33, 1, 0.68, 1] }} // Ease out más suave
-        className="relative z-40 w-full bg-paper-white"
+        className="relative isolate z-40 w-full overflow-hidden bg-paper-white"
       >
+        <LeafBackground leaves={navbarLeaves} />
+
         <div className="mx-auto grid max-w-[1200px] grid-cols-3 items-center px-[20px] py-[20px] lg:px-[40px] lg:py-[30px]">
           
           {/* LADO IZQUIERDO: Selector de Idioma (como en la referencia) */}

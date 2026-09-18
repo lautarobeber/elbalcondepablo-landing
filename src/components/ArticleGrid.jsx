@@ -1,5 +1,6 @@
 import { useRef } from 'react'
 import { motion } from 'framer-motion'
+import LeafBackground, { galleryLeaves } from './LeafBackground'
 import plato21 from "../assets/plato21.jpg"
 import plato2 from "../assets/plato2.jpg"
 import plato3 from "../assets/plato3.jpg"
@@ -76,7 +77,8 @@ export default function PhotoGallery() {
   const carouselRef = useRef(null)
 
   return (
-    <section className="w-full overflow-hidden bg-gray-200 py-[80px] lg:py-[100px]">
+    <section id="menu" className="relative isolate w-full overflow-hidden bg-gray-200 py-[80px] lg:py-[100px]">
+      <LeafBackground leaves={galleryLeaves} />
 
       {/* TÍTULO Y INDICADOR DE DESLIZAR */}
       <div className="mx-auto max-w-[1200px] px-[20px] lg:px-[40px] flex flex-col sm:flex-row sm:items-end justify-between gap-4">
