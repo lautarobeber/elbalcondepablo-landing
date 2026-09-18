@@ -55,7 +55,7 @@ export default function Hero() {
               style={{ y: parallaxFast }}
               className="absolute left-[50%] top-[560px] text-[230px] font-bold leading-none tracking-[-0.06em] text-charcoal-ink z-10"
             >
-              Pablo
+              Pedro
             </motion.div>
           </div>
 
@@ -169,7 +169,7 @@ export default function Hero() {
             className="absolute bottom-0 left-[20px] text-[18vw] font-bold leading-[0.8] tracking-[-0.06em] text-charcoal-ink z-0"
             style={{ writingMode: 'vertical-rl', textOrientation: 'mixed', transform: 'rotate(180deg)' }}
           >
-            Pablo
+            Pedro
           </motion.div>
 
           {/* Foto Inferior Derecha (Z-10) */}
