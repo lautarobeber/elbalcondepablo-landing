@@ -57,6 +57,7 @@ export const heroLeaves = [
   { top: '10%', left: '46%', size: 160, rotate: 70, opacity: 0.09, hideOnMobile: true },
   { bottom: '6%', left: '20%', size: 220, rotate: -50, opacity: 0.09, hideOnMobile: true },
   { top: '32%', left: '9%', size: 140, rotate: 100, opacity: 0.08 },
+  { top: '32%', left: '18%', size: 600, rotate: 100, opacity: 0.08 },
   { bottom: '10%', right: '20%', size: 180, rotate: -60, opacity: 0.09, flip: true, hideOnMobile: true },
   { top: '4%', right: '30%', size: 110, rotate: 15, opacity: 0.08, hideOnMobile: true },
   { bottom: '4%', left: '55%', size: 260, rotate: 8, opacity: 0.09, flip: true },

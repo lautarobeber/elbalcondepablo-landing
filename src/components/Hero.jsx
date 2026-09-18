@@ -18,7 +18,7 @@ export default function Hero() {
     <section
       id="top"
       ref={sectionRef}
-      className="relative isolate w-full overflow-hidden bg-paper-white px-4 pt-4 pb-20 lg:px-10"
+      className="relative isolate w-full  bg-paper-white px-4  md:pb-36 pt-4 pb-20 lg:px-10 z-10"
     >
       <LeafBackground leaves={heroLeaves} />
 
@@ -53,7 +53,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
               style={{ y: parallaxFast }}
-              className="absolute left-[50%] top-[560px] text-[230px] font-bold leading-none tracking-[-0.06em] text-charcoal-ink"
+              className="absolute left-[50%] top-[560px] text-[230px] font-bold leading-none tracking-[-0.06em] text-charcoal-ink z-10"
             >
               Pablo
             </motion.div>
@@ -103,7 +103,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.6, ease: 'easeOut' }}
               style={{ y: parallaxSlow }}
               // Ancho ajustado al aspect ratio real de la foto (vertical) para que se vea completa, sin recortes
-              className="absolute left-0 top-[480px] z-0 h-[390px] w-[313px] object-cover"
+              className="absolute left-0 top-[480px] z-0 h-[390px] w-[380px] object-cover"
             />
           )}
         </div>

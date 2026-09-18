@@ -40,7 +40,7 @@ const cardItemVariants = {
 
 export default function IntroSection() {
   return (
-    <section className="relative isolate w-full overflow-hidden bg-paper-white px-[20px] py-[80px] lg:px-[40px] lg:py-[100px]">
+    <section className="relative isolate w-full overflow-hidden bg-paper-white pt-24px px-[20px] py-[80px] lg:px-[40px] lg:py-[100px]">
       <LeafBackground leaves={introLeaves} />
 
       {/* Contenedor principal con Grid en escritorio */}
