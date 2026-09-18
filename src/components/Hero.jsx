@@ -103,7 +103,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.6, ease: 'easeOut' }}
               style={{ y: parallaxSlow }}
               // Ancho ajustado al aspect ratio real de la foto (vertical) para que se vea completa, sin recortes
-              className="absolute left-0 top-[480px] z-0 h-[390px] w-[380px] object-cover"
+              className="absolute left-70 top-[480px] z-0 h-[390px] w-[380px] object-cover"
             />
           )}
         </div>
