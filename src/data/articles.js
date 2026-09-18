@@ -45,7 +45,7 @@ export const heroPhotos = [
   {
     id: 'b',
     src: localDentro,
-    className: 'lg:w-[300px] top-[430px] left-[25%] lg:top-[460px] lg:left-[3%]',
+    className: 'w-[300px] lg:w-[300px] top-[430px] left-[25%] lg:top-[460px] lg:left-[3%]',
   },
   
 ]
