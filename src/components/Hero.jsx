@@ -102,8 +102,8 @@ export default function Hero() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.6, ease: 'easeOut' }}
               style={{ y: parallaxSlow }}
-              // Le agregamos "left-0" para forzar su posición a la izquierda
-              className="absolute left-0 top-[480px] z-0 h-[390px] w-[520px] object-cover"
+              // Ancho ajustado al aspect ratio real de la foto (vertical) para que se vea completa, sin recortes
+              className="absolute left-0 top-[480px] z-0 h-[390px] w-[313px] object-cover"
             />
           )}
         </div>
