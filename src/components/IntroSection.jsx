@@ -75,7 +75,9 @@ export default function IntroSection() {
             transition={{ duration: 0.6, delay: 0.2, ease: 'easeOut' }}
             className="mt-[30px] lg:mt-[40px]"
           >
-            <PillButton size="standard">Conocé mas de nosotros</PillButton>
+            <a href="#menu">
+              <PillButton size="standard">Conocé mas de nosotros</PillButton>
+            </a>
           </motion.div>
 
           {/* ----- CARDS CON ICONOS SVG ----- */}
@@ -100,7 +102,7 @@ export default function IntroSection() {
                     className="h-36 w-36 object-contain transition-transform duration-300 group-hover:scale-110"
                   />
                 </div>
-                
+
                 {/* Título de la categoría */}
                 <h3 className="text-[12px] font-bold uppercase tracking-wider text-charcoal-ink text-center">
                   {card.title}
@@ -109,7 +111,7 @@ export default function IntroSection() {
             ))}
           </motion.div>
           {/* ----- FIN CARDS ----- */}
-          
+
         </div>
 
         {/* COLUMNA DERECHA: Imagen */}

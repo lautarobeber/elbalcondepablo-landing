@@ -15,7 +15,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   // Link de WhatsApp (reemplazar con el número real de El Balcón de Pedro)
-  const whatsAppLink = "https://wa.me/34XXXXXXXXX?text=Hola,%20quisiera%20reservar%20una%20mesa"
+  const whatsAppLink = "https://wa.me/5493436616417?text=Hola,%20quisiera%20reservar%20una%20mesa"
 
   return (
     <>

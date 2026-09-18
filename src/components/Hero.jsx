@@ -23,7 +23,7 @@ export default function Hero() {
       <LeafBackground leaves={heroLeaves} />
 
       <div className="relative mx-auto min-h-[90vh] max-w-[1500px]">
-        
+
         {/* =========================================
             VERSIÓN ESCRITORIO (Diseño Original)
         ========================================= */}
@@ -72,7 +72,13 @@ export default function Hero() {
               Un espacio pensado para frenar el tiempo y disfrutar
             </p>
             <div className="mt-6">
-              <PillButton size="compact">Reservá tu mesa</PillButton>
+              <a
+                href="https://wa.me/5493436616417?text=Hola!%20Quiero%20reservar%20una%20mesa."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <PillButton size="compact">Reservá tu mesa</PillButton>
+              </a>
             </div>
           </motion.div>
 
@@ -96,7 +102,8 @@ export default function Hero() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.6, ease: 'easeOut' }}
               style={{ y: parallaxSlow }}
-              className="absolute top-[480px] z-0 h-[390px] w-[520px] object-cover"
+              // Le agregamos "left-0" para forzar su posición a la izquierda
+              className="absolute left-0 top-[480px] z-0 h-[390px] w-[520px] object-cover"
             />
           )}
         </div>
@@ -105,7 +112,7 @@ export default function Hero() {
             VERSIÓN MÓVIL (Corrección de superposición)
         ========================================= */}
         <div className="block lg:hidden relative h-[90vh] min-h-[650px] w-full mt-4 select-none">
-          
+
           {/* Foto Superior Izquierda (Ocupa hasta el 35% del alto) */}
           {heroPhotos[0] && (
             <motion.img
