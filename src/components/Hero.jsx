@@ -39,7 +39,7 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             style={{ y: parallaxSlow }}
-            className="absolute left-[65%] top-[220px] hidden origin-top-left rotate-90 text-[17vw] font-bold leading-none tracking-[-0.06em] text-charcoal-ink lg:block lg:text-[230px]"
+            className="absolute left-[64%] top-[220px] hidden origin-top-left rotate-90 text-[17vw] font-bold leading-none tracking-[-0.06em] text-charcoal-ink lg:block lg:text-[230px]"
           >
           De
           </motion.div>
@@ -50,7 +50,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
             style={{ y: parallaxFast }}
-            className="absolute left-[52%] top-[560px] hidden text-[17vw] font-bold leading-none tracking-[-0.06em] text-charcoal-ink lg:block lg:text-[230px]"
+            className="absolute left-[50%] top-[560px] hidden text-[17vw] font-bold leading-none tracking-[-0.06em] text-charcoal-ink lg:block lg:text-[230px]"
           >
           Pablo
           </motion.div>
@@ -85,7 +85,7 @@ export default function Hero() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.5, ease: 'easeOut' }}
               style={{ y: parallaxSlow }}
-              className="absolute right-0 top-[40px] z-0 h-[480px] w-[340px] object-cover"
+              className="absolute right-0 top-[20px] z-0 h-[500px] w-[500px] object-cover"
             />
           )}
 
@@ -98,7 +98,7 @@ export default function Hero() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.6, ease: 'easeOut' }}
               style={{ y: parallaxSlow }}
-              className="absolute left-[80px] top-[520px] z-0 h-[390px] w-[420px] object-cover"
+              className="absolute top-[480px] z-0 h-[390px] w-[520px] object-cover"
             />
           )}
         </div>

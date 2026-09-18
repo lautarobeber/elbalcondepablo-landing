@@ -15,7 +15,7 @@ function App() {
           <Hero />
           <IntroSection />
           <ArticleGrid />
-          <Manifesto />
+          {/* <Manifesto /> */}
         </main>
         <Footer />
       </div>

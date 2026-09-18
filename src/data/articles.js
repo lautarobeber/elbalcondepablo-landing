@@ -1,12 +1,14 @@
 function unsplash(id, w, h) {
   return `https://images.unsplash.com/photo-${id}?w=${w}&h=${h}&fit=crop&q=80`
 }
-import localDentro from "../assets/local-dentro.jpg"
+import localDentro from "../assets/GENTE.jpg"
 import localFuera1 from "../assets/afuera1.jpg"
 import elLocal from '../assets/elbalcon.jpg'
 import plato1 from '../assets/plato1.jpg'
+import gpt from '../assets/gpt.png'
 import mesacopas from '../assets/mesacopas.jpg'
 import elbalcon from "../assets/elbalcon.jpg"
+import marco from "../assets/marco.jpg"
 export const articles = [
   {
     id: 1,
@@ -37,12 +39,12 @@ export const articles = [
 export const heroPhotos = [
   {
     id: 'a',
-    src: plato1,
-    className: 'w-[260px] lg:w-[260px] top-[10px] left-[62%] lg:top-[10px] lg:left-[64%]',
+    src: gpt,
+    className: 'w-[300px] lg:w-[260px] top-[10px] left-[62%] lg:top-[10px] lg:left-[64%]',
   },
   {
     id: 'b',
-    src: mesacopas,
+    src: localDentro,
     className: 'w-[280px] lg:w-[300px] top-[430px] left-[25%] lg:top-[460px] lg:left-[3%]',
   },
   
